@@ -12,7 +12,19 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quas laboriosam, s
 ## Button example
 
 <Canvas>
-  <Story name="Button Example" args={{ children: "Texto do botão" }}>
+  <Story
+    name="Button Example"
+    args={{ children: "Texto do botão", variant: "primary" }}
+  >
+    {(args) => <Button {...args} />}
+  </Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    name="Button Example 2"
+    args={{ children: "Texto do botão 2", variant: "accent" }}
+  >
     {(args) => <Button {...args} />}
   </Story>
 </Canvas>
