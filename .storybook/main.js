@@ -4,6 +4,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "addon-screen-reader"
   ],
   framework: "@storybook/react",
   core: {
